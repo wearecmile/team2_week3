@@ -1,0 +1,103 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Poppins&display=swap');
+
+  /* custom.css */
+
+  /* Body Styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  /* Container Styles */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Heading Styles */
+  h3 {
+    text-align: center;
+    color: #333;
+  }
+
+  /* Table Styles */
+  .table {
+    margin-bottom: 20px;
+  }
+
+  .table th,
+  .table td {
+    vertical-align: middle;
+  }
+
+  /* Checkbox Styles */
+  .table th input[type="checkbox"] {
+    margin: 0;
+  }
+
+  /* Form Styles */
+  form {
+    margin-bottom: 20px;
+  }
+
+  .form-text {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* Button Styles */
+  .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
+  /* Price Styles */
+  #price {
+    font-weight: bold;
+  }
+
+  /* Error Styles */
+  .text-danger {
+    color: #dc3545;
+  }
+
+  /* Background Image Styles */
+  .bgimg {
+    background-image: url(../image/bg-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 576px) {
+    .container {
+      padding: 10px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+
+    .btn-primary {
+      font-size: 14px;
+    }
+  }
